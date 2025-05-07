@@ -1,10 +1,7 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import numpy as np
 import matplotlib.pyplot as plt
-import torch.utils.data.dataloader
-
 
 def generate_data(seq_length=50, num_samples=7000):
     x = np.linspace(0,200,num_samples)
